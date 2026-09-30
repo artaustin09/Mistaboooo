@@ -1,0 +1,153 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+   <head> 
+     <meta charset="UTF-8"> 
+     <title> Austin Rojas - evolucion </title> 
+         <style> 
+             html, body { 
+                 margin: 0; 
+                 padding: 0; 
+                 width: 100%; 
+                 min-height: 100vh; 
+                 background-color: rgb(230, 165, 225); 
+                 font-family: sans-serif; 
+                 display: flex; 
+                 flex-direction: column; 
+             } 
+ 
+             header { 
+                 display: flex; 
+                 justify-content: space-between; 
+                 align-items: center; 
+                 background-color: rgb(215, 145, 210); 
+                 padding: 15px 30px; 
+                 box-sizing: border-box; 
+             } 
+ 
+             .logo-pequeno { 
+                 width: 50px; 
+                 height: auto; 
+                 display: block; 
+             } 
+ 
+             .barra-navegacion { 
+                 display: flex; 
+                 gap: 15px; 
+                 margin-top: 10px; 
+             }  
+ 
+             .boton-nav { 
+                 text-decoration: none; 
+                 color: rgb(0, 0, 0); 
+                 background-color: rgb(251, 133, 221); 
+                 padding: 8px 16px; 
+                 border-radius: 4px; 
+                 font-size: 14px; 
+                 transition: background-color 0.3s; 
+             } 
+ 
+             .boton-nav:hover { 
+                 background-color: rgb(251, 133, 221); 
+                 color: white; 
+             }  
+ 
+             .boton-nav.activo { 
+                 background-color: rgb(248, 188, 238); 
+                 color: white; 
+                 font-weight: bold; 
+             } 
+ 
+             main { 
+                 display: flex; 
+                 gap: 30px; 
+                 padding: 30px; 
+                 box-sizing: border-box; 
+                 flex: 1; 
+                 width: 100%; 
+             } 
+ 
+             aside { 
+                 width: 25%;  
+                 display: flex; 
+                 justify-content: center; 
+                 align-items: flex-start; 
+             } 
+ 
+             aside img { 
+                 width: 100%; 
+                 max-width: 350px; 
+                 height: auto; 
+                 display: block; 
+                 border-radius: 4px; 
+             } 
+ 
+             section { 
+                 width: 75%; 
+                 display: flex; 
+                 flex-direction: column; 
+             } 
+ 
+             article { 
+                 width: 100%; 
+                 background-color: rgb(238, 170, 235); 
+                 padding: 25px; 
+                 border-radius: 6px; 
+                 box-sizing: border-box; 
+             } 
+ 
+             article img { 
+                 max-width: 100%; 
+                 height: auto; 
+                 display: block; 
+                 margin-bottom: 20px; 
+                 border-radius: 4px; 
+             } 
+ 
+             footer { 
+                 background-color: rgb(215, 145, 210); 
+                 text-align: center; 
+                 padding: 15px; 
+                 width: 100%; 
+                 box-sizing: border-box; 
+             } 
+ 
+             footer p { 
+                 margin: 0; 
+                 font-size: 14px; 
+             } 
+         </style> 
+    </head>   
+    <body> 
+        <header> 
+            <div> 
+                <h1 style="margin:0;">Mi sitio web</h1> 
+                <nav class="barra-navegacion"> 
+                    <a href="index.html" class="boton-nav activo">inicio mista</a> 
+                    <a href="aus.html" class="boton-nav">evolucion de mista</a> 
+                    <a href="aus2.html" class="boton-nav">Carrera</a> 
+                </nav> 
+            </div> 
+            <img src="imagenes/mista.jpg" alt="logo de mi sitio web" title="logo de la marca" class="logo-pequeno"> 
+        </header> 
+ 
+         <main>
+            <aside>
+                <p>paleta de la mas draga beauty creations</p>
+                <img src="imagenes/paleta.jpg" alt="anuncios">
+            </aside>
+            <section>
+                <article> 
+                    <img src="IMAGENES/mistaevolucion.jpg" alt="foto"> 
+                    <h1>evolucion</h1> 
+                    <p>Al principio, el drag de Mista Boo se caracterizaba por una estética muy oscura, alternativa y relacionada con el terror. Su personaje tenía elementos de brujería, criaturas sobrenaturales y maquillaje llamativo, alejándose del estilo tradicional de una drag queen enfocada principalmente en el glamour.</p> 
+                    <p>Con el paso del tiempo, especialmente durante La Más Draga 3, su propuesta se volvió más conceptual y teatral. Comenzó a combinar su estética de terror con referencias a la cultura mexicana, personajes y temas más variados, utilizando el vestuario, el maquillaje y la actuación para contar una idea en cada presentación.</p> 
+                    <p>Actualmente, Mista Boo mantiene su esencia oscura y alternativa, pero su drag se ha vuelto más elaborado, versátil y sofisticado. Ya no depende solamente del terror o la brujería, sino que incorpora diferentes estilos y referencias sin perder la identidad que la distingue como Mista Boo.</p> 
+                </article> 
+            </section> 
+        </main> 
+ 
+        <footer> 
+            <p>Creado por Rojas Ortiz Austin</p> 
+        </footer> 
+    </body> 
+</html>
